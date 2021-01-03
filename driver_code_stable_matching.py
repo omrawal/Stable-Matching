@@ -1,0 +1,11 @@
+from stable_matching import StableMatch
+sm=StableMatch(5)
+sm.get_grps(['A','B','C','D','E'],['L','M','N','O','P'])
+sm.get_preference_grp1([['O','M','N','L','P'],['P','N','M','L','O'],['M','P','L','O','N'],['P','M','O','N','L'],['O','L','M','N','P']])
+sm.get_preference_grp2([['D','B','E','C','A'],['B','A','D','C','E'],['A','C','E','D','B'],['D','A','C','B','E'],['B','E','A','C','D']])
+sm.select_proposing_group(1)
+sm.create_unmatched_list()
+sm.create_current_partner_matrix()
+sm.create_proposed_matrix()
+# k=sm.calculate_stable_match()
+print(sm.calculate_stable_match())
