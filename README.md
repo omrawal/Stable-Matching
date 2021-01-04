@@ -1,6 +1,6 @@
 # Stable-Matching 
 
-The Stable Marriage Problem states that given N men and N women, where each person has ranked all members of the opposite sex in order of preference, marry the men and women together such that there are no two people of opposite sex who would both rather have each other than their current partners. If there are no such people, all the marriages are “stable” <Source [Wiki]>(https://en.wikipedia.org/wiki/Stable_marriage_problem).
+The Stable Marriage Problem (also known as Gale Shapley algorithm or Stable Matching algorithm) states that given N men and N women, where each person has ranked all members of the opposite sex in order of preference, marry the men and women together such that there are no two people of opposite sex who would both rather have each other than their current partners. If there are no such people, all the marriages are “stable” <Source [Wiki]>(https://en.wikipedia.org/wiki/Stable_marriage_problem).
 
 ## Preview
 ![Preview](Assets/Stable_Match.gif)
